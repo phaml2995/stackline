@@ -1,0 +1,30 @@
+table {
+    background-color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    max-width: 100%;
+    width: 100%;
+
+    text-align: center;
+    border-radius: 10px;
+}
+
+table th,
+table td {
+    border: 0.3px solid whitesmoke;
+    padding: 10px;
+}
+
+table th {
+    padding: 20px;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-logo {
+    width: 1.5rem;
+    cursor: pointer;
+}
